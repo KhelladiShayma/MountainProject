@@ -1,0 +1,76 @@
+/*html,
+body,
+header,
+#intro {
+    height: 100%;
+}*/
+
+/*#intro {
+    background: url("surf.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}*/
+/*#showcase
+{
+    color:white;
+}*/
+
+/*#a{
+    text-decoration: none;
+}*/
+.collapse navbar-collapse{
+    display: flex;
+    /*flex-direction: row;
+    justify-content: center;*/
+} 
+
+
+  button:link {
+    text-decoration: none;
+    color: white;
+  }
+  button:hover {
+    text-decoration: underline;
+    color: white;
+  }
+  button :visited {
+    color: white;
+  }
+.jumbotron-hero {
+    /* Choisis la hauteur ici */
+    height: 100vh;
+  
+    /* Tu lui donnes une image de background */
+    background-image: url("marmotte5.jpg");
+  
+    /* Centre l'image et la met bien sur tous les écrans */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:azure;
+    font-family: 'Dancing Script', cursive;
+  }
+/*.card
+{
+    border:none;
+}*/
+#mainly 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#Cards
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
